@@ -12,7 +12,7 @@ generate_feeds = true
 taxonomies = [{ name = "tags", rss = true }]
 
 # Theme
-theme = "kita"
+theme = "makita"
 
 [markdown]
 highlight_code = true
