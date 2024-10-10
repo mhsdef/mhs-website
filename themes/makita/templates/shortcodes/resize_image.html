@@ -1,0 +1,2 @@
+{% set image = resize_image(path=path, width=width, height=height | default(value=0), op=op) %}
+<img src="{{ image.url }}" alt="{{ alt }}" style="display: block; margin-left: auto; margin-right: auto;">
