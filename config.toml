@@ -27,15 +27,17 @@ mermaid = false
 
 # The profile on home page.
 [extra.profile]
-name = "mhs"
+name = "Matt Sutton"
 bio = "Product builder. Whiskey drinker. Both at the same time."
-avatar_url = "icons/github.svg"
-avatar_invert = true
+avatar_url = "images/oranger.jpg"
 
-# The `name` should be the file name of static/icons/*.svg or the icon name of https://simpleicons.org/
 [[extra.profile.social]]
 name = "github"
 url = "https://github.com/mhsdef"
+
+[[extra.profile.social]]
+name = "codeberg"
+url = "https://codeberg.org/mhs"
 
 [[extra.profile.social]]
 name = "mastodon"
