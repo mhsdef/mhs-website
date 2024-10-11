@@ -2,7 +2,7 @@
 title = "Bells and Whistles"
 date = "2021-05-14"
 [taxonomies]
-tags = ["complexity", "Edsger Dijkstra"]
+tags = ["complexity"]
 +++
 
 > Are you quite sure that all those bells and whistles, all those wonderful facilities of your so-called ‘powerful’ programming languages belong to the solution set rather than to the problem set?

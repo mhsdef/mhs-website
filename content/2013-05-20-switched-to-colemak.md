@@ -2,7 +2,7 @@
 title = "Switched to Colemak"
 date = "2013-05-20"
 [taxonomies]
-tags = ["work tools"]
+tags = ["tools"]
 +++
 
 We have over 20 alternative layout keyboardists at Automattic circa this post, including [one rather well known one](http://ma.tt/2003/08/on-the-dvorak-keyboard-layout/). For three years, I resisted their proselytizing as I calculated the cost/benefit ratio to be against switching:
