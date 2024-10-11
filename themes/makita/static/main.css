@@ -1365,7 +1365,7 @@ pre table td:nth-of-type(1) {
 }
 
 .w-16 {
-  width: 4rem;
+  width: 6.7rem;
 }
 
 .w-4 {
@@ -1914,14 +1914,20 @@ article {
   margin-bottom: 0px;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
+@keyframes gentle-wobble {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
   }
 }
 
-.hover\:animate-spin:hover {
-  animation: spin 1s linear infinite;
+.hover\:animate-wobble:hover {
+  animation: gentle-wobble 0.5s ease-in-out;
 }
 
 .hover\:underline:hover {
