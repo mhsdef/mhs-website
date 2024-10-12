@@ -17,8 +17,20 @@
 /*.css
   Cache-Control: public, max-age=604800, must-revalidate
 
-# Image files in both images and icons directories
+# Image files in images and icons directories
 /images/*.{svg,png,ico,jpg,jpeg,gif,webp,avif}
+  Cache-Control: public, max-age=31536000, immutable
+
+# Processed images with various formats
+/processed_images/*.png
+  Cache-Control: public, max-age=31536000, immutable
+/processed_images/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/processed_images/*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+/processed_images/*.gif
+  Cache-Control: public, max-age=31536000, immutable
+/processed_images/*.webp
   Cache-Control: public, max-age=31536000, immutable
 
 /icons/*.{svg,ico}
