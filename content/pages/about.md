@@ -12,7 +12,7 @@ Hey, I'm **@mhs**. I'm interested in:
 - Simple Operational Flows
 - Essential Complexity, not Incidental Complexity
 
-I'm currently taking a sabbatical before diving into my next adventure. In my spare time I enjoy working on side projects, contributing to open source, all things music, and trying to keep up with the kiddos. I thrive when building robust, sustainable, human-centric products. This blog serves as a platform to share my projects and thoughts on topics that interest me.
+I'm currently taking a sabbatical before diving into my next adventure. In my spare time I enjoy working on side projects, contributing to open source, all things music, and trying to keep up with the kiddos. I thrive when building robust, sustainable, human-centric products. This site serves as a platform for me to share missives with you, lucky reader, on topics that interest me.
 
 ## Site Details
 
