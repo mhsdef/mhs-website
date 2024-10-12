@@ -29,7 +29,7 @@ mermaid = false
 [extra.profile]
 name = "Matt Sutton"
 bio = "Product builder. Whiskey drinker. Both at the same time."
-avatar_url = "images/oranger.jpg"
+avatar_url = "images/oranger.webp"
 
 [[extra.profile.social]]
 name = "github"
