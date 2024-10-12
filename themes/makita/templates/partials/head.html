@@ -78,7 +78,7 @@
     }
   </style>
 
-  {% if section.path is defined and section.path == "/" %}
+  {% if section.path is defined and section.path == "/about" %}
   <!-- Avatar -->
   {% if config.extra.profile.avatar_url %}
   <link rel="preload" as="image" href="{{ get_url(path=config.extra.profile.avatar_url) }}" />
