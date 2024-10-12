@@ -46,4 +46,4 @@ User-agent: omgilibot
 Disallow: /
 
 # Sitemap directive
-Sitemap: https://mhs.dev/sitemap.xml
+Sitemap: https://mhsive.com/sitemap.xml

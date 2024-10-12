@@ -1,4 +1,4 @@
-# mhs.dev
+# mhsive.com
 
 This is a static website built using [Zola](https://www.getzola.org/), a fast static site generator written in Rust.
 
