@@ -7,6 +7,6 @@ tags = ["meander"]
 
 It matters _how_ we do things.
 
-It matters _how_ we take each step towards that end goal.
+It matters _how_ we take each step towards the end goal.
 
 Don't let anyone tell you otherwise.
