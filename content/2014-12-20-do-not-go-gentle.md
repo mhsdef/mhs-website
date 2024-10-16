@@ -9,4 +9,4 @@ tags = ["poetry"]
 > Old age should burn and rage at close of day;  
 > Rage, rage against the dying of the light.
 
-— Dylan Thomas, "Do not go gentle into that good night" (opening stanza)
+— Dylan Thomas, opening stanza
