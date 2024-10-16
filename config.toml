@@ -1,9 +1,11 @@
-title = "mhs"
-author = "mhs"
 base_url = "https://mhsive.com"
+
+title = "mhs"
+description = "missives on building software. meandering thoughts too."
 default_language = "en"
 
 # Base
+author = "mhs"
 compile_sass = true
 build_search_index = false
 
