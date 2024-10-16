@@ -19,7 +19,7 @@ I ended up changing my mind because:
 
 Most of my coworkers switched to [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard). I've switched to Colemak as I think it to be [a tad more efficient](http://colemak.com/wiki/index.php?title=FAQ#What.27s_wrong_with_the_Dvorak_layout.3F). The important takeaway, IMO, is to get off QWERTY as either should be leaps better on your wrists over time.
 
-{{ resize_image(path="/images/colemak-layout.png", alt="Colemak keyboard layout", width=600, op="fit_width") }}
+<img src="/images/colemak-layout.webp" alt="Colemak keyboard layout" style="display: block; margin-left: auto; margin-right: auto; width: 90%;">
 
 If you are intrigued, join me in making a Colemak switch! You can grab the purdy-fied Colemak printout you see above from my coworker [Matt Wiebe](http://mattwie.be/)'s site [as a PDF](http://somadesign.ca/2012/learning-colemak/).
 

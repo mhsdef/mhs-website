@@ -7,7 +7,7 @@ tags = ["meander"]
 
 In the last post I made, I mentioned I had finally succumbed to the smartphone world. Mobile computing with a reasonably intuitive interface and nifty applications–I’m as hooked as I feared I would be.
 
-<img src="/images/droid-incredible.png" alt="HTC Droid Incredible" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="/images/droid-incredible.webp" alt="HTC Droid Incredible" style="display: block; margin-left: auto; margin-right: auto;">
 
 The HTC Droid Incredible is my flavor of choice. I drove my poor wife and social connections a bit batty as I agonized over the options. I literally came a Google Checkout failure away from a Nexus One. We also gave the iPhone 4 a really hard look as it has an amazing display and amazing industrial design.
 
