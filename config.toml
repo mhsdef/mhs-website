@@ -46,19 +46,23 @@ name = "mastodon"
 url = "https://mastodon.social/@mhs"
 
 [[extra.profile.social]]
+name = "bluesky"
+url = "https://bsky.app/profile/mhs.bsky.social"
+
+[[extra.profile.social]]
 name = "rss"
 url = "$BASE_URL/atom.xml"
 
 [[extra.menu]]
-name = "About"
+name = ":about"
 url = "$BASE_URL/about"
 
 [[extra.menu]]
-name = "Archive"
+name = ":archive"
 url = "$BASE_URL/archive"
 
 [[extra.menu]]
-name = "Tags"
+name = ":tags"
 url = "$BASE_URL/tags"
 
 [extra.footer]
