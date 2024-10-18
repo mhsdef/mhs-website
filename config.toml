@@ -54,15 +54,15 @@ name = "rss"
 url = "$BASE_URL/atom.xml"
 
 [[extra.menu]]
-name = ":about"
+name = "about"
 url = "$BASE_URL/about"
 
 [[extra.menu]]
-name = ":archive"
+name = "archive"
 url = "$BASE_URL/archive"
 
 [[extra.menu]]
-name = ":tags"
+name = "tags"
 url = "$BASE_URL/tags"
 
 [extra.footer]
