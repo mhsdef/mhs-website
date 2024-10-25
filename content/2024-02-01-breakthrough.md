@@ -5,7 +5,7 @@ date = "2024-02-01"
 tags = ["complexity"]
 +++
 
-{{ resize_image(path="/images/eric-evans-breakthrough.png", alt="Eric Evans Breakthrough", width=550, op="fit_width") }}
+<img src="/images/eric-evans-breakthrough.webp" alt="Chart visualizing a breakthrough as described by Eric Evans" style="display: block; margin-left: auto; margin-right: auto; width: 550px">
 
 > The returns from refactoring are not linear. Usually there is a marginal return for a small effort, and the small improvements add up. They fight entropy, and they are the frontline protection against a fossilized legacy. But some of the most important insights come abruptly and send a shock through the project.
 >
