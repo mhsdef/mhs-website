@@ -20,7 +20,7 @@ This theme is based on Hugo theme [hugo-paper](https://github.com/nanxiaobei/hug
 - Projects page
 - Archive page
 - Table of Content
-- Admonition shortcode
+- Admonition component
 - SEO friendly
 - Comments using [Giscus](https://giscus.app/)
 - Mathematical notations using [KaTeX](https://katex.org/)

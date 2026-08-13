@@ -5,9 +5,9 @@ date = "2018-05-04"
 tags = ["programming languages"]
 +++
 
-{% admonition(type="quote", title="Joel Salatin (2016)") %}
+{% <admonition type="quote" title="Joel Salatin (2016)"> %}
 We respect and honor the pigness of the pig and the chickenness of the chicken.
-{% end %}
+{% </admonition> %}
 
 [Joel Salatin](https://en.wikipedia.org/wiki/Joel_Salatin) is an innovative farmer / agricultural philosopher(!) who has inspired me personally for quite some time. One of his farming tenets is respecting the inherent nature of the animals and the environment under his care. That resonates with me deeply. And I think it applies to programming.
 

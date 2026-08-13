@@ -5,14 +5,14 @@ date = "2010-02-04"
 tags = ["meander"]
 +++
 
-{% admonition(type="quote", title="Peter Gibbons (Office Space)") %}
+{% <admonition type="quote" title="Peter Gibbons (Office Space)"> %}
 Michael, we don’t have a lot of time on this earth! We weren’t meant to spend it this way. Human beings were not meant to sit in little **cubicles** staring at computer screens all day, filling out useless forms and listening to eight different bosses drone on about about mission statements.
-{% end %}
+{% </admonition> %}
 
 I never really appreciated the value of color, beauty, and being sensitive to human desires until I had them almost fully taken away from me. I am fresh off of my first and hopefully last large corporate job, and that kick to the pants was one of the best thing that has ever happened to me. I worked here:
 
 <figure>
-{{ resize_image(path="/images/wachovia-cic.jpg", alt="Wells Fargo Customer Information Center", width=500, op="fit_width") }}
+{{<resize_image path="/images/wachovia-cic.jpg" alt="Wells Fargo Customer Information Center" width={500} op="fit_width" />}}
 <figcaption style="text-align: center;">Wells Fargo Customer Information Center</figcaption>
 </figure>
 

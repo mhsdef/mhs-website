@@ -1,0 +1,5 @@
+{%- component social_icon(icon: string) -%}
+{%- set path = "icons/" ~ icon ~ ".svg" -%}
+{%- set meta = get_image_metadata(path=path, allow_missing=true) -%}
+{{- get_url(path=path) if meta else "https://cdn.jsdelivr.net/npm/simple-icons/icons/" ~ icon ~ ".svg" -}}
+{%- endcomponent social_icon -%}

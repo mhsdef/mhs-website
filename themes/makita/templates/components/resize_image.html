@@ -1,0 +1,5 @@
+{% component resize_image(path: string, alt: string = "", width: integer = 0, height: integer = 0, op: string = "fit_width") %}
+{# Component arguments are not auto-escaped (unlike regular templates), so escape explicitly. #}
+{%- set image = resize_image(path=path, width=width, height=height, op=op) -%}
+<img src="{{ image.url | escape_html }}" alt="{{ alt | escape_html }}" style="display: block; margin-left: auto; margin-right: auto;">
+{% endcomponent resize_image %}

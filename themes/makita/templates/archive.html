@@ -5,7 +5,10 @@
 
 {% set section = get_section(path=page.extra.section) %}<!---->
 
-{% for year, posts in section.pages | group_by(attribute="year") %}
+{# group_by returns an unsorted map in Tera 2, so sort the years explicitly (newest first). #}
+{% set groups = section.pages | group_by(attribute="year") %}<!---->
+{% for year in groups | keys | sort | reverse %}<!---->
+{% set posts = groups[year] %}
 <h2>{{ year }} <sup class="opacity-60">{{ posts | length }}</sup></h2>
 
 <div class="not-prose pl-6">

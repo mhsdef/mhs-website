@@ -5,4 +5,4 @@ date = "2011-07-18"
 tags = ["paint"]
 +++
 
-{{ resize_image(path="/images/whats-mine-is-yours.jpg", alt="What's Mine Is Yours", width=650, op="fit_width") }}
+{{<resize_image path="/images/whats-mine-is-yours.jpg" alt="What's Mine Is Yours" width={650} op="fit_width" />}}
