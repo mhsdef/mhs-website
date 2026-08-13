@@ -46,7 +46,7 @@
   {% endif %}
 
   <!-- CSS & JS -->
-  <link rel="preload stylesheet" as="style" href="{{ get_url(path=`main.css`) }}" />
+  <link rel="stylesheet" href="{{ get_url(path=`main.css`) }}" />
   <style>
     :root {
       --bg: {{ config.extra.style?.bg_color | default(value="#f4f4f5") }};
@@ -55,23 +55,6 @@
       --header-dark: {{ config.extra.style?.header_dark_color | default(value="#27272a") }};
     }
   </style>
-
-  {% if section?.path == "/about" %}
-  <!-- Avatar -->
-  {% if config.extra.profile?.avatar_url %}
-  <link rel="preload" as="image" href="{{ get_url(path=config.extra.profile.avatar_url) }}" />
-  {% endif %}
-
-  <!-- Social List -->
-  {% if config.extra.profile?.social %}<!---->
-  {% for social in config.extra.profile.social %}
-  <link rel="preload" as="image" href="{{<social_icon icon={social.name} />}}" />
-  {% endfor %}<!---->
-  {% endif %}<!---->
-  {% endif %}
-
-  <!-- Dark Icon -->
-  <link rel="preload" as="image" href="{{ get_url(path=`icons/theme.svg`) }}" />
 
   <!-- Math -->
   {% if page?.extra?.math | default(value=config.extra.math) %}<!---->
