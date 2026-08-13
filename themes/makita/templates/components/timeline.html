@@ -1,0 +1,24 @@
+{% component timeline() %}
+<style>
+.tline{list-style:none;margin:2rem 0;padding:0}
+.tline li{position:relative;margin:0;padding:0 0 1.6rem 1.75rem;border-left:1px solid rgb(0 0 0 / 13%)}
+.tline li:last-child{border-left-color:transparent;padding-bottom:0}
+.tline li::before{content:"";position:absolute;left:-4px;top:.42rem;width:7px;height:7px;border-radius:50%;background:rgb(0 0 0 / 28%)}
+.tline li:last-child::before{left:-6px;top:.3rem;width:11px;height:11px;background:rgb(0 0 0 / 80%);box-shadow:0 0 0 4px rgb(0 0 0 / 7%)}
+.tline-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:.6rem}
+.tline-d{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;opacity:.55;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tline-m{font-weight:600;line-height:1.3}
+.tline-n{margin-top:.2rem;opacity:.72;line-height:1.55}
+.tline li:is(.dark *){border-left-color:rgb(255 255 255 / 18%)}
+.tline li:last-child:is(.dark *){border-left-color:transparent}
+.tline li:is(.dark *)::before{background:rgb(255 255 255 / 35%)}
+.tline li:last-child:is(.dark *)::before{background:rgb(255 255 255 / 85%);box-shadow:0 0 0 4px rgb(255 255 255 / 12%)}
+</style>
+<ol class="not-prose tline">
+{%- for line in body | trim | split(pat="\n") %}
+{%- set p = line | split(pat="|") %}
+<li><div class="tline-h"><span class="tline-d">{{ p[0] | trim | escape_html }}</span><span class="tline-m">{{ p[1] | trim | escape_html }}</span></div>
+{%- if p | length > 2 %}<div class="tline-n">{{ p[2] | trim | markdown(inline=true) | safe }}</div>{% endif %}</li>
+{%- endfor %}
+</ol>
+{% endcomponent timeline %}
